@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
 
     <!-- Google Fonts API -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree&family=Rubik:wght@700&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree&family=Rubik:wght@700&family=Work+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome API -->
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
@@ -23,6 +28,8 @@
     <div class="card">
       <div class="search">
         <input class="search-bar" placeholder="City name" />
+
+        <!-- Search Button -->
         <button>
           <svg
             stroke="currentColor"
@@ -39,6 +46,8 @@
           </svg>
         </button>
       </div>
+      
+      <!-- Starts with dummy data -->
       <div class="weather loading">
         <div class="location">
           <h1 class="location-city">Weather in Surat</h1>
@@ -46,12 +55,15 @@
         </div>
         <div class="temperature">
           <h2 class="temperature-degree">29<span>°C</span></h2>
-          <div class="weather-description" style="text-transform: capitalize;">Cloudy</div>
+          <div class="weather-description" style="text-transform: capitalize">
+            Cloudy
+          </div>
           <div class="humidity">Humidity: 60%</div>
           <div class="wind">Wind: 12km/hr</div>
         </div>
       </div>
     </div>
+
     <script src="index.js"></script>
   </body>
 </html>
