@@ -1,6 +1,6 @@
 # Weather App
 
-[![Weather App](https://img.shields.io/badge/Weather-App-dodgerblue.svg?style=for-the-badge)](https://github.com/JPy-UwU/Weather-App)[![View Demo](https://img.shields.io/badge/View-Demo-teal.svg?style=for-the-badge)](https://github.com/JPy-UwU/Weather-App)
+[![Weather App](https://img.shields.io/badge/Weather-App-dodgerblue.svg?style=for-the-badge)](https://github.com/JPy-UwU/Weather-App) [![View Demo](https://img.shields.io/badge/View-Demo-teal.svg?style=for-the-badge)](https://github.com/JPy-UwU/Weather-App)
 
 > This is a simple weather application that allows users to search for the current weather conditions of a specific location and view details such as temperature, humidity, wind speed, and description.
 
